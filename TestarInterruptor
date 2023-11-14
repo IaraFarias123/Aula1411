@@ -1,0 +1,12 @@
+public class TestarInterruptor{
+     public static void main(){
+         Interruptor testarInterruptor = new Interruptor();
+    
+         testarInterruptor.pressionar();
+         testarInterruptor.verificarLampada();
+         
+         testarInterruptor.pressionar();
+         testarInterruptor.verificarLampada();
+        
+     }
+}
