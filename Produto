@@ -1,0 +1,23 @@
+
+public class Produto{
+    
+    // define atributos
+    String nome;
+    Double preco;
+
+    // cria metodos
+    void informarNome(){
+        System.out.println("O nome do produto é: " + nome);
+    }
+    
+    void informarPreco(){
+        System.out.println("O preco do produto é: " + preco);
+    }   
+    
+    void fazerPromocao(){
+       preco = preco - 1;
+    }
+    
+    }
+   
+       
